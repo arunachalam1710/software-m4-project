@@ -1,0 +1,156 @@
+@media only screen and (max-width:1152px) {
+    .border-collap {
+        border-right: none;
+    }
+}
+@media only screen and (min-width:1151px) {
+    .border-collap {
+        border-right: 1px solid gainsboro;
+    }
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    height: 3rem;
+}
+.back {
+    background-image: url(https://mobirise.com/extensions/softwarem4/mobile-app/assets/images/mbr.jpg);
+    background-position: center;
+    background-size:cover;
+    min-height: 600px;
+}
+
+.btn-lg.btn-card {
+    background-color:#dce8eb;
+}
+.btn-lg.bt-clo {
+    background-color: #f7d9c4;
+}
+
+.cencard {
+    background-color: #3d54d0;
+}
+.display {
+    background-color: #efefef;
+}
+.btn.btn-hov1:hover{
+    background-color: black;
+    color: white;
+}
+.btn.btn-hov2:hover {
+    background-color: #000000;
+    color:white;
+}
+
+.btn.btn-hov3:hover {
+    color: #ffffff;
+    background-color: #a5c4cb;
+    border-color: #a5c4cb;
+}
+
+.btn.btn-hov4:hover{background-color:lightgray;
+    color: black;}
+
+.icon ul {
+    line-height: 42px;
+}
+.cross {
+    transform: rotate(45deg);
+    bottom: -135px;
+    right: -135px;
+    height: 270px;
+    width: 270px;
+    background-color: #ff8484;
+}
+.download i {
+    font-size: 75px;
+    color: #ff8484;
+}
+.accordion-button::after {
+    background-image: none;
+}
+.accordion-button.int::after {
+    content: none;
+}
+.accordion-button::before {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    content: "";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk9OM1uuh2HJxskYY4re48p8fYzvfP7BTQ5cA9KwU7ImdIfX151UPzAAsLEbJcR3j3vq8&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.design i {
+    font-size: 65px;
+    background-color: #dce8eb;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.cheat:hover {
+    border: none;
+}
+.design:hover i {
+    background-color: #f8c4c4;
+}
+
+.design .nav-link {
+    text-decoration:underline;
+}
+.card.border-no {
+    border: none;
+}
+.small-hov {
+    border-top-left-radius:30% ;
+    border-top-right-radius:30%;
+}
+.small-hov:hover {
+    background-color:#f7d9c4;
+    color: white;
+}
+
+.subbutt{padding: 10px 31px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: large;
+    font-weight: 600;
+border: none;}
+
+.subbutt:hover{background-color: #f7d9c4;
+    color: #000000;}
+
+
+.img2 {
+    height: 250px;
+}
+.attach {
+    background-color:#31363b;
+    height: 35px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.container-fluid.down {
+   padding: 0px;
+}
+.cut {
+    height: 145px;
+    bottom: -40px;
+    right: -35px;
+}
+.nav-link.navhov:hover {
+    background-color: white;
+}
+.im-hov:hover img {
+    animation: backInDown;
+    animation-duration: 0.5s;
+}
+.btn.btn-hov5:hover{background-color:white;
+    color: #000000;}
